@@ -2,7 +2,7 @@
 import os
 from datetime import date
 import threading
-from http.server import BaseHTTORequestHandler, HTTPServer
+from http.server import BaseHTTPRequestHandler, HTTPServer
 from telegram import Update, ReplyKeyboardMarkup
 from telegram.ext import (
     Application,
